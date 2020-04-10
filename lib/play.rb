@@ -42,4 +42,5 @@ def play(board)
   until turn == 9
     puts (turnboard)
     turn += 1
+  end
 end
