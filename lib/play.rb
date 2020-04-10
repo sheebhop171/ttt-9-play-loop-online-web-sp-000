@@ -37,7 +37,6 @@ end
 
 # Define your play method below
 
-turn = 0
 def play(board)
   until turn == 9
     puts display_board(board)
