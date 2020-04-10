@@ -36,8 +36,9 @@ def turn(board)
 end
 
 # Define your play method below
-counter = 9
+
 def play(board)
+  counter = 9
   until counter == 9
     puts display_board(board)
     counter += 1
