@@ -39,6 +39,6 @@ end
 
 def play(board)
   until turn(board) == 9
-    puts display(board)
+    puts display_board(board)
   end
 end
