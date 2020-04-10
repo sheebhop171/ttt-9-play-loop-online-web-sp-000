@@ -40,5 +40,6 @@ end
 def play(board)
   until turn(board) == 9
     puts display_board(board)
+    turn(board) += 1
   end
 end
