@@ -38,10 +38,9 @@ end
 # Define your play method below
 
 def play(board)
-  counter = 9
-  puts "Please enter 1-9:"
-  until counter == 9
-    puts turn(board)
+  counter = 0
+  until turn(board) == 9
+    puts display_board(board)
     counter += 1
   end
 end
